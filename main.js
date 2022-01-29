@@ -1,5 +1,5 @@
 canvas=document.getElementById("myCanvas")
-ctx=canvas.getcontext("2d")
+ctx=canvas.getContext("2d")
 
 
 img_width = 300;
@@ -34,14 +34,7 @@ function my_keydown(e)
 			document.getElementById("d1").innerHTML="You pressed Alphabet key";
 			console.log("alphabetkey");
 
-	
-		}
-	else{
-		
-		otherkey();
-		document.getElementById("d1").innerHTML="You pressed symbol or other key";
-
-		numberkey();
+			numberkey();
 			document.getElementById("d1").innerHTML="You pressed number key";
 			console.log("numberkey");
 
@@ -53,6 +46,15 @@ function my_keydown(e)
 			document.getElementById("d1").innerHTML="You pressed special key";
 			console.log("specialkey");
 
+
+	
+		}
+	else{
+		
+		otherkey();
+		document.getElementById("d1").innerHTML="You pressed symbol or other key";
+
+		
 			
 	}
 }
