@@ -34,17 +34,7 @@ function my_keydown(e)
 			document.getElementById("d1").innerHTML="You pressed Alphabet key";
 			console.log("alphabetkey");
 
-			numberkey();
-			document.getElementById("d1").innerHTML="You pressed number key";
-			console.log("numberkey");
-
-			arrowkey();
-			document.getElementById("d1").innerHTML="You pressed arrow key";
-			console.log("arrowkey");
-
-			specialkey();
-			document.getElementById("d1").innerHTML="You pressed special key";
-			console.log("specialkey");
+			
 
 
 	
@@ -56,7 +46,16 @@ function my_keydown(e)
 
 		
 			
+
 	}
+
+
+		
+
+	
+
+
+	
 }
 
 function aplhabetkey()
@@ -65,21 +64,7 @@ function aplhabetkey()
 	add();
 
 }
-function numberkey()
-{
-	img_image="numkey.png"
-	add();
-}
-function arrowkey()
-{
-	img_image="Arrkey.png"
-	add();	
-}
-function specialkey()
-{
-	img_image="spkey.png"
-	add();
-}
+
 function otherkey()
 {
 	img_image="otherkey.png";
